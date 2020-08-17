@@ -7,6 +7,13 @@ var request = require("request");
   
 */
 
+/*
+
+  HTTPS API Endpoint:  https://secure.smslink.ro/sms/gateway/communicate/index.php
+  HTTP API Endpoint:   http://www.smslink.ro/sms/gateway/communicate/index.php
+
+*/
+
 var options = {
   method: 'GET',
   url: 'https://secure.smslink.ro/sms/gateway/communicate/index.php',
